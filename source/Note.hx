@@ -153,8 +153,21 @@ class Note extends FlxSprite
 				case 'GF Sing':
 					gfNote = true;
 				case 'Warning Note':
-					ignoreNote = mustPress;
-					reloadNote('HURT');
+					reloadNote('WARNING');
+					noteSplashTexture = 'WARNINGnoteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					lowPriority = true;
+
+					if(isSustainNote) {
+						missHealth = 500;
+					} else {
+						missHealth = 500;
+					}
+					hitCausesMiss = false;
+				case 'Red Warning Note':
+					reloadNote('REDWARNING');
 					noteSplashTexture = 'HURTnoteSplashes';
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
@@ -162,19 +175,13 @@ class Note extends FlxSprite
 					lowPriority = true;
 
 					if(isSustainNote) {
-						missHealth = 0.1;
+						missHealth = 1;
 					} else {
-						missHealth = 0.3;
+						missHealth = 1;
 					}
-					hitCausesMiss = true;
-				case 'Alt Animation':
-					animSuffix = '-alt';
-				case 'No Animation':
-					noAnimation = true;
-					noMissAnimation = true;
-				case 'GF Sing':
-					gfNote = true;
-
+					hitCausesMiss = false;
+				
+				
 			}
 			noteType = value;
 		}
