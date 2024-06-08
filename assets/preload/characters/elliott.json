@@ -1,59 +1,112 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-4,
 				1
 			],
-			"anim": "idle",
+			"indices": [],
 			"fps": 24,
-			"name": "Idle",
-			"indices": []
+			"anim": "idle",
+			"loop": false,
+			"name": "Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				12,
 				-10
 			],
+			"indices": [],
+			"fps": 90,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Left",
-			"indices": []
+			"loop": false,
+			"name": "Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				109,
 				-30
 			],
+			"indices": [],
+			"fps": 90,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Down",
-			"indices": []
+			"loop": false,
+			"name": "Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				215,
 				-11
 			],
+			"indices": [],
+			"fps": 90,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "Up",
-			"indices": []
+			"loop": false,
+			"name": "Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-17,
 				-17
 			],
+			"indices": [],
+			"fps": 90,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Right",
-			"indices": []
+			"loop": false,
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"indices": [],
+			"fps": 90,
+			"anim": "idle-loop",
+			"loop": true,
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-9,
+				10
+			],
+			"indices": [
+				5,
+				6
+			],
+			"fps": 90,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				-10,
+				-33
+			],
+			"indices": [
+				6,
+				7
+			],
+			"fps": 90,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				204,
+				-7
+			],
+			"indices": [
+				5,
+				6
+			],
+			"fps": 90,
+			"anim": "singUP-loop",
+			"loop": true,
+			"name": "Up"
 		}
 	],
 	"no_antialiasing": false,
