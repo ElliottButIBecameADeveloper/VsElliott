@@ -1,0 +1,7 @@
+{
+	"name": "ElliottExtra",
+	"description": "These are some of the note assets, if not showing up, ENABLE THIS",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [170, 0, 255]
+}

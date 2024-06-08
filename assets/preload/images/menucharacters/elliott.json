@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Menu-Idle",
+	"image": "Menu-Elliott",
+	"position": [
+		132,
+		190
+	],
+	"flipX": false,
+	"scale": 0.5,
+	"confirm_anim": "Menu-Idle"
+}

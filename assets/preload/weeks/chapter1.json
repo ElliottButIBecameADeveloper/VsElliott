@@ -1,0 +1,48 @@
+{
+	"songs": [
+		[
+			"Rookie",
+			"elliott",
+			[
+				246,
+				182,
+				4
+			]
+		],
+		[
+			"Unexpected",
+			"elliott",
+			[
+				246,
+				182,
+				4
+			]
+		],
+		[
+			"End of the line",
+			"elliott",
+			[
+				246,
+				182,
+				4
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "menu-elliottp1",
+	"weekCharacters": [
+		"elliott",
+		"bf",
+		"gf"
+	],
+	"storyName": "Chaos Begins Somewhere",
+	"weekName": "Chapter 1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "",
+	"startUnlocked": true
+}
